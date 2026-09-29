@@ -1,0 +1,15 @@
+# Custom year table. Pass with:  landsat-timeseries AOI OUT --config examples/years.yaml
+# bands are Planetary Computer common asset names; resolution (metres) is optional
+# (default: 60 for MSS, 30 otherwise).
+years:
+  - year: 1990
+    sat_num: 5
+    instrument: tm
+    collection: landsat-c2-l2
+    bands: [red, nir08, swir16, swir22]
+
+  - year: 2020
+    sat_num: 8
+    instrument: oli
+    collection: landsat-c2-l2
+    bands: [blue, green, red, nir08, swir16, swir22]

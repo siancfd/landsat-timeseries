@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Data: never commit imagery, outputs or AOI boundaries
+*.tif
+*.tiff
+*.part
+*.bak
+data/
+aoi/
+out/
+output/
+outputs/
+landsat_out/
+*_preview.png
+*_preview.jpg
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Local config / secrets
+.env
+*.key
