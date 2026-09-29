@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paris_10km_Eiffel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.227024,
+              48.813014
+            ],
+            [
+              2.363194,
+              48.813817
+            ],
+            [
+              2.362094,
+              48.903746
+            ],
+            [
+              2.225688,
+              48.902942
+            ],
+            [
+              2.227024,
+              48.813014
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

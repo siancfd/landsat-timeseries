@@ -23,6 +23,7 @@ landsat_out/
 *_preview.png
 *_preview.jpg
 *.geojson
+!examples/*.geojson
 *.shp
 *.shx
 *.dbf
